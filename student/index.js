@@ -10,7 +10,7 @@ return string
 // turn it into an array of the letters in the string
 function splitTheString (string) {
   // your costring de here
-  return [...string].join("");
+  return [...string];
    
 
 }
