@@ -2,21 +2,24 @@
 // Given a string,
 // return the string
 function returnTheString (string) {
-  // your code here
+return string
 }
 
 // Exercise 1
 // Given a string,
 // turn it into an array of the letters in the string
 function splitTheString (string) {
-  // your code here
+  // your costring de here
+  return [...string].join("");
+   
+
 }
 
 // Exercise 2
 // Given an object,
 // return a shallow copy of the object
 function shallowCopyObject (object) {
-  // your code here
+return {...object};
 }
 
 // Exercise 3
@@ -24,6 +27,7 @@ function shallowCopyObject (object) {
 // return a shallow copy of the array
 function shallowCopyArray (array) {
   // your code here
+  return [...array]
 }
 
 // Exercise 4
@@ -31,6 +35,7 @@ function shallowCopyArray (array) {
 // turn them into one object that contains the properties of both objects
 function mergeTwoObjects (object1, object2) {
   // your code here
+return {...object1, ...object2}
 }
 
 // Exercise 5
@@ -38,6 +43,7 @@ function mergeTwoObjects (object1, object2) {
 // turn them into one array containing all elements of both arrays
 function combineTwoArrays (array1, array2) {
   // your code here
+return [...array1, ...array2]
 }
 
 module.exports = {
